@@ -5,7 +5,7 @@ import { FiDownload } from 'react-icons/fi';
 // Components
 import Socials from '../components/Socials';
 import Photo from '../components/Photo';
-import { Stats } from 'fs';
+import Skills from '../components/Skills';
 
 const Home = () => {
   return (
@@ -49,6 +49,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Skills />
     </section>
   );
 };
