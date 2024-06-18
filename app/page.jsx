@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Button } from '@/components/ui/button';
+import { Button } from '../components/ui/button';
 import { FiDownload } from 'react-icons/fi';
 
 // Components
-import Socials from '@/components/Socials';
-import Photo from '@/components/Photo';
+import Socials from '../components/Socials';
+import Photo from '../components/Photo';
 import { Stats } from 'fs';
 
 const Home = () => {
